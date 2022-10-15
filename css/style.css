@@ -1,10 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--logo1-color);
+  margin: 0 auto;
 }
 
 .container {
   width: 1200px;
+  padding: 0 15px;
 }
 
 :root {
@@ -26,7 +28,7 @@ body {
 
 .headercomponents {
   color: var(--main-color);
-  width: 1600px;
+
   height: 80px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -103,12 +105,11 @@ a:hover {
   text-align: center;
   margin-top: auto;
   padding-top: 200px;
+  width: 100%;
 }
 
 .section1 {
   background-color: var(--background-color);
-  width: 1600px;
-  height: 600px;
 }
 
 .buttonmain {
@@ -174,8 +175,6 @@ a:hover {
 
 .section4 {
   background-color: var(--background2-color);
-  width: 1600px;
-  height: 648px;
   padding-top: 94px;
 }
 
@@ -204,8 +203,6 @@ a:hover {
 
 .footercomponents {
   background-color: var(--background-color);
-  width: 1600px;
-  height: 252px;
 }
 
 .logo2 {
