@@ -133,12 +133,44 @@ a:hover {
 .list6 {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
-  flex-direction: row;
+  gap: 10px;
+  /* flex-direction: row; */
+  /* gap:calc((100% - 60px) / 3); */
   /* max-width: 50%; */
   /* gap:calc(10% /3) */
 }
+
+.lioffer {
+  /* width: 370px;
+  height: 294px; */
+  background: var(--main-color);
+  border: 1px solid var(--border-color);
+  padding-bottom: 20px;
+  /* padding-bottom: 150px; */
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.h3portfolio {
+  color: var(--link1-color);
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  padding-left: 24px;
+}
+
+.psection5 {
+  color: var(--link2-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  padding-left: 24px;
+}
+
+
+
 
 .link1 {
   font-style: normal;
@@ -343,24 +375,5 @@ a:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.lioffer {
-  width: 370px;
-  height: 294px;
-  background: var(--main-color);
-  border: 1px solid var(--border-color);
-}
 
-.h3portfolio {
-  color: var(--link1-color);
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
 
-.psection5 {
-  color: var(--link2-color);
-  font-weight: 400;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
