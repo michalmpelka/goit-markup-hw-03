@@ -11,8 +11,11 @@ body {
   padding: 0 15px;
 }
 
-.content {
-  
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 :root {
@@ -34,12 +37,11 @@ body {
 
 .headercomponents {
   color: var(--main-color);
-
   height: 80px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--border-bottom-color);
-  display: flex;
+  /* display: flex; */
 }
 
 a:hover {
@@ -54,7 +56,8 @@ a:hover {
   color: var(--logo1-color);
   text-decoration: none;
   padding-top: 24px;
-  padding-left: 215px;
+  padding-bottom: 24px;
+  /* padding-left: 215px; */
 }
 
 .logoblue {
@@ -67,17 +70,23 @@ a:hover {
   text-decoration: none;
 }
 
-.navpadding {
+
+/* .navpadding {
   padding-top: 16px;
+  display: flex;
+  
 }
 
 .contact {
   display: flex;
   padding-top: 16px;
-}
+} */
 
-.list {
+.menu {
   list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 .link1 {
@@ -111,7 +120,6 @@ a:hover {
   text-align: center;
   margin-top: auto;
   padding-top: 200px;
-  width: 100%;
 }
 
 .section1 {
@@ -128,7 +136,7 @@ a:hover {
   text-align: center;
   width: 200px;
   height: 50px;
-  margin: 30px 700px 200px 700px;
+  margin: 30px 500px 200px 500px;
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -139,9 +147,9 @@ a:hover {
   background-color: var(--button-active-color);
 }
 
-.wrapper {
+/* .wrapper {
   display: flex;
-}
+} */
 .section2 {
   padding-top: 94px;
   background-color: var(--main-color);
