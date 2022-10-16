@@ -41,7 +41,7 @@ body {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--border-bottom-color);
-  /* display: flex; */
+
 }
 
 a:hover {
@@ -57,7 +57,6 @@ a:hover {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
-  /* padding-left: 215px; */
 }
 
 .logoblue {
@@ -69,7 +68,6 @@ a:hover {
   color: var(--main2-color);
   text-decoration: none;
 }
-
 
 /* .navpadding {
   padding-top: 16px;
@@ -87,6 +85,59 @@ a:hover {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
+}
+.list1 {
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  gap:calc(10%/ 4);
+
+}
+
+.list2 {
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.list3 {
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  gap:calc(10%/ 4);
+}
+
+.list4 {
+  list-style-type: none;
+  padding: 0%;
+  
+}
+
+
+/* .section5 {
+  width: 1170px;
+  height: 1360px;
+} */
+
+.list5 {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap:calc(10%/ 5);
+  margin: 94px;
+}
+
+.list6 {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* max-width: 50%; */
+  /* gap:calc(10% /3) */
 }
 
 .link1 {
@@ -152,6 +203,7 @@ a:hover {
 } */
 .section2 {
   padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--main-color);
 }
 
@@ -179,18 +231,21 @@ a:hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link1-color);
-  padding-bottom: 50px;
+  /* margin-top: 50px; */
+  /* padding-bottom: 50px; */
+
 }
 
 .section3 {
   background-color: var(--main-color);
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section4 {
   background-color: var(--background2-color);
   padding-top: 94px;
-}
+  padding-bottom: 94px;}
 
 .liteam {
   width: 270px;
@@ -213,10 +268,15 @@ a:hover {
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
+  
 }
 
 .footercomponents {
   background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+ 
+  
 }
 
 .logo2 {
@@ -227,6 +287,7 @@ a:hover {
   letter-spacing: 0.03em;
   color: var(--main-color);
   text-decoration: none;
+  
 }
 
 .logowhite {
@@ -246,6 +307,7 @@ a:hover {
   letter-spacing: 0.03em;
   color: var(--link2-color);
   text-decoration: none;
+  
 }
 
 .address1 {
@@ -254,12 +316,10 @@ a:hover {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  padding-top: 20px;
 }
 
-.section5 {
-  width: 1170px;
-  height: 1360px;
-}
+
 
 .buttonlist {
   font-family: "Roboto", sans-serif;
