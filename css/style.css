@@ -1,12 +1,18 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--logo1-color);
-  margin: 0 auto;
+  margin: 0;
 }
 
 .container {
-  width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
   padding: 0 15px;
+}
+
+.content {
+  
 }
 
 :root {
