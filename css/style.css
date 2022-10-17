@@ -11,12 +11,6 @@ body {
   padding: 0 15px;
 }
 
-.header-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 :root {
   --main-color: #ffffff;
   --background-color: #2f303a;
@@ -32,6 +26,19 @@ body {
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --button-active-color: #21b4f3;
   --border-color: #eeeeee;
+}
+
+.header-wrapper1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .headercomponents {
@@ -67,17 +74,6 @@ a:hover {
   text-decoration: none;
 }
 
-/* .navpadding {
-  padding-top: 16px;
-  display: flex;
-  
-}
-
-.contact {
-  display: flex;
-  padding-top: 16px;
-} */
-
 .menu {
   list-style-type: none;
   display: flex;
@@ -112,38 +108,29 @@ a:hover {
   padding: 0%;
 }
 
-/* .section5 {
-  width: 1170px;
-  height: 1360px;
-} */
+.section5 {
+  margin-bottom: 90px;
+}
 
 .list5 {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: calc(10% / 5);
+  gap: calc(5% / 5);
   margin: 94px;
 }
 
 .list6 {
   list-style-type: none;
   display: flex;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
   gap: 10px;
-  /* flex-direction: row; */
-  /* gap:calc((100% - 60px) / 3); */
-  /* max-width: 50%; */
-  /* gap:calc(10% /3) */
 }
 
 .lioffer {
-  /* width: 370px;
-  height: 294px; */
   background: var(--main-color);
   border: 1px solid var(--border-color);
   padding-bottom: 20px;
-  /* padding-bottom: 150px; */
   flex-basis: calc((100% - 60px) / 3);
 }
 
@@ -222,12 +209,8 @@ a:hover {
   background-color: var(--button-active-color);
 }
 
-/* .wrapper {
-  display: flex;
-} */
 .section2 {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 94px;
   background-color: var(--main-color);
 }
 
@@ -255,19 +238,16 @@ a:hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link1-color);
-  /* margin-top: 50px; */
-  /* padding-bottom: 50px; */
+  padding-top: 94px;
 }
 
 .section3 {
   background-color: var(--main-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 .section4 {
   background-color: var(--background2-color);
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -346,8 +326,9 @@ a:hover {
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  width: 121px;
   height: 38px;
+  padding-left: 22px;
+  padding-right: 22px;
   border: none;
   display: inline-block;
   cursor: pointer;
