@@ -1,7 +1,128 @@
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/* *,
+::after,
+::before {
+  box-sizing: border-box;
+}
+html {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+hr {
+  height: 0;
+  color: inherit;
+}
+abbr[title] {
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+table {
+  text-indent: 0;
+  border-color: inherit;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+legend {
+  padding: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
+} */
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--logo1-color);
   margin: 0;
+}
+
+::after,
+::before {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -9,6 +130,10 @@ body {
   width: 100%;
   max-width: 1200px;
   padding: 0 15px;
+}
+
+.section {
+  padding: 94px 0;
 }
 
 :root {
@@ -80,12 +205,13 @@ a:hover {
   flex-grow: 1;
   justify-content: space-between;
 }
+
 .list1 {
   list-style-type: none;
   display: flex;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   justify-content: space-between;
-  gap: calc(10% / 4);
+  gap: 30px;
 }
 
 .list2 {
@@ -93,6 +219,7 @@ a:hover {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .list3 {
@@ -100,7 +227,7 @@ a:hover {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
-  gap: calc(10% / 4);
+  gap: 30px;
 }
 
 .list4 {
@@ -186,6 +313,7 @@ a:hover {
 
 .section1 {
   background-color: var(--background-color);
+  padding: 94px 0;
 }
 
 .buttonmain {
@@ -196,11 +324,15 @@ a:hover {
   font-size: 16px;
   letter-spacing: 0.06em;
   text-align: center;
-  width: 200px;
-  height: 50px;
-  margin: 30px 500px 200px 500px;
+  /* width: 200px;
+  height: 50px; */
+  padding: 10px 41px 10px 41px;
+  /* margin: 30px 500px 200px 500px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   border: none;
-  display: inline-block;
+  /* display: inline-block; */
   cursor: pointer;
   box-shadow: var(--box-shadow);
   border-radius: 4px;
@@ -210,8 +342,9 @@ a:hover {
 }
 
 .section2 {
-  margin-top: 94px;
+  /* margin-top: 94px; */
   background-color: var(--main-color);
+  padding: 94px 0;
 }
 
 .h2hide {
@@ -230,7 +363,8 @@ a:hover {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--link2-color);
-  padding-top: 10px;
+  /* text-align: justify; */
+  /* padding-top: 10px; */
 }
 
 .h2components {
@@ -238,22 +372,22 @@ a:hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link1-color);
-  padding-top: 94px;
+  /* padding-top: 94px; */
 }
 
 .section3 {
   background-color: var(--main-color);
-  margin-bottom: 94px;
+  padding: 94px 0;
 }
 
 .section4 {
   background-color: var(--background2-color);
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .liteam {
-  width: 270px;
-  height: 368px;
+  /* width: 270px;
+  height: 368px; */
   background: var(--main-color);
   box-shadow: var(--box-shadow2);
   border-radius: 0px 0px 4px 4px;
@@ -307,7 +441,6 @@ a:hover {
   letter-spacing: 0.03em;
   color: var(--link2-color);
   text-decoration: none;
-
 }
 
 .address1 {
