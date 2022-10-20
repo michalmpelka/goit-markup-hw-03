@@ -222,14 +222,6 @@ a:hover {
   gap: 30px;
 }
 
-.list3 {
-  list-style-type: none;
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
-  gap: 30px;
-}
-
 .list4 {
   list-style-type: none;
   padding: 0%;
@@ -237,6 +229,9 @@ a:hover {
 
 .section5 {
   margin-bottom: 90px;
+}
+
+.section-buttons {
 }
 
 .list5 {
@@ -385,12 +380,21 @@ a:hover {
   padding: 94px 0;
 }
 
+.list3 {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  gap: 30px;
+}
+
 .liteam {
-  /* width: 270px;
-  height: 368px; */
   background: var(--main-color);
   box-shadow: var(--box-shadow2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+  /* flex-basis: calc((100% - 60px) / 4);  */
 }
 
 .psection4 {
@@ -399,6 +403,7 @@ a:hover {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
 .h3center {
@@ -406,6 +411,7 @@ a:hover {
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
+  margin: 0;
 }
 
 .footercomponents {
