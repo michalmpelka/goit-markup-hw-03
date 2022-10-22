@@ -207,9 +207,10 @@ a:hover {
 .list1 {
   list-style-type: none;
   display: flex;
-  /* flex-grow: 1; */
   justify-content: space-between;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .list2 {
