@@ -129,10 +129,6 @@ body {
   padding: 0 15px;
 }
 
-/* .section {
-  padding: 94px 0;
-} */
-
 :root {
   --main-color: #ffffff;
   --background-color: #2f303a;
@@ -219,6 +215,8 @@ a:hover {
   flex-grow: 1;
   justify-content: space-between;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .list4 {
@@ -323,12 +321,11 @@ a:hover {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  text-align: center;
   margin-bottom: 106px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  text-align: center;
   padding: 10px 41px 10px 42px;
 }
 
@@ -367,17 +364,19 @@ a:hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link1-color);
-  /* padding-top: 94px; */
 }
 
 .section3 {
   background-color: var(--main-color);
-  padding: 94px 0;
+  padding: 0 0 94px 0;
+  margin: 0;
 }
 
 .section4 {
   background-color: var(--background2-color);
   padding: 94px 0;
+  /* padding: 94px 0 0 0; */
+  /* margin: 0; */
 }
 
 .list3 {
@@ -394,7 +393,6 @@ a:hover {
   box-shadow: var(--box-shadow2);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
-  /* flex-basis: calc((100% - 60px) / 4);  */
 }
 
 .psection4 {
@@ -404,6 +402,7 @@ a:hover {
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0;
+  padding-top: 10px;
 }
 
 .h3center {
@@ -411,7 +410,6 @@ a:hover {
   font-size: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  margin: 0;
 }
 
 .footercomponents {
