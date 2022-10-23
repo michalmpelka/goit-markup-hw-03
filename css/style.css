@@ -228,32 +228,41 @@ a:hover {
 }
 
 .section5 {
-  margin-bottom: 90px;
+  margin-bottom: 82px;
+  /* padding: 0 0 94px 0;
+  margin: 0; */
 }
 
 .section-buttons {
+  padding: 106px 0 34px;
 }
 
 .list5 {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: calc(5% / 5);
-  margin: 94px;
+  gap: 8px;
+  margin: 0;
 }
 
 .list6 {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
 }
 
 .lioffer {
   background: var(--main-color);
-  border: 1px solid var(--border-color);
   padding-bottom: 20px;
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.borderportfolio {
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  margin-top: -5px;
 }
 
 .h3portfolio {
@@ -262,6 +271,9 @@ a:hover {
   letter-spacing: 0.03em;
   text-align: left;
   padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  margin: 0;
 }
 
 .psection5 {
@@ -271,6 +283,8 @@ a:hover {
   letter-spacing: 0.03em;
   text-align: left;
   padding-left: 24px;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
 .link1 {
