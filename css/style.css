@@ -222,15 +222,12 @@ a:hover {
 .list4 {
   list-style-type: none;
   padding: 0;
-  /* margin: 0; */
   margin-top: 9px;
   margin-bottom: 0;
 }
 
 .section5 {
-  margin-bottom: 82px;
-  /* padding: 0 0 94px 0;
-  margin: 0; */
+  margin-bottom: 52px;
 }
 
 .section-buttons {
@@ -249,13 +246,14 @@ a:hover {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
+  padding-bottom: 30px;
   gap: 30px;
+  margin: auto;
 }
 
 .lioffer {
   background: var(--main-color);
-  padding-bottom: 20px;
-  flex-basis: calc((100% - 60px) / 3);
 }
 
 .borderportfolio {
@@ -351,7 +349,6 @@ a:hover {
 }
 
 .section2 {
-  /* margin-top: 94px; */
   background-color: var(--main-color);
   padding: 94px 0;
 }
@@ -372,8 +369,6 @@ a:hover {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--link2-color);
-  /* text-align: justify; */
-  /* padding-top: 10px; */
 }
 
 .h2components {
@@ -392,8 +387,6 @@ a:hover {
 .section4 {
   background-color: var(--background2-color);
   padding: 94px 0;
-  /* padding: 94px 0 0 0; */
-  /* margin: 0; */
 }
 
 .list3 {
@@ -462,9 +455,6 @@ a:hover {
   letter-spacing: 0.03em;
   color: var(--link2-color);
   text-decoration: none;
-  /* margin-top: 9px; */
-  /* padding-top: 9px;
-  padding-bottom: 9px; */
 }
 
 .footerlink {
@@ -477,8 +467,6 @@ a:hover {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  /* padding-top: 20px; */
-  /* padding-bottom: 9px; */
   margin-top: 20px;
   margin-bottom: 0px;
 }
